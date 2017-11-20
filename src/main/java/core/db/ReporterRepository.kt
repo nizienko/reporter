@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository
 @Repository
 open class ReporterRepository {
     private val db = KMongo.createClient(
-            "127.0.0.1",
+            "mongodb",
             27017
     ).getDatabase("reporter")!!
 

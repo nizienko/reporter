@@ -9,7 +9,7 @@ import org.litote.kmongo.distinct
 import org.litote.kmongo.getCollection
 
 class DataLoadTest {
-    val url = "http://127.0.0.1:8080"
+    val url = "http://127.0.0.1:80"
 
 
     private val db = KMongo.createClient(
